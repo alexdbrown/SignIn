@@ -6,6 +6,12 @@ SignIn.config(function($stateProvider, $urlRouterProvider){
     templateUrl:'partials/home.html'
   });
 
+  $stateProvider.state('sign-in', {
+    url: '/sign-in',
+    templateUrl: 'partials/sign-in.html',
+    controller: 'StudentsCtrl'
+  });
+
 
 
 });
