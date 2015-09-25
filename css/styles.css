@@ -1,0 +1,84 @@
+.number-of-answers{
+  margin-left: 5px;
+  color: lightgray;
+  font-style: italic;
+}
+
+::selection {
+  color: tomato;
+  background-color: Chartreuse;
+}
+
+.or {
+  margin-top: 50px;
+}
+
+.icon {
+    height: 15px;
+    width: 15px;
+}
+
+img:hover {
+  background-color: red;
+}
+
+.navbar {
+    background: linear-gradient(to right, #281212, #580A0A);
+
+    border-color: transparent;
+    border-width: 0px;
+}
+
+.navbar-brand {
+    padding: 5px 10px 5px 10px;
+    font-family: "PT Sans";
+    font-size: 20px;
+
+}
+
+#question-logo {
+  height: 20px;
+  width: 20px;
+}
+
+
+body {
+  font-family: "PT Sans Narrow";
+  font-color: #B7B6C1;
+  background-color: #5A0909;
+}
+
+h3, h1 {
+  font-family: "PT Sans";
+}
+
+.jumbotron {
+  background-color: #1E1E22;
+  height: auto;
+  -webkit-box-shadow: 20px 20px 42px -4px #000;
+  -moz-box-shadow: 20px 20px 42px -4px #000;
+  box-shadow: 20px 20px 42px -4px #000;
+  margin-top:10%;
+  color: #fff;
+}
+
+input[type='text'] {
+  background: #000;
+  color: #fff;
+}
+
+input[type='text']:focus {
+  outline: none !important;
+  border:2px solid #5A0909;
+  box-shadow: 0 0 5px #5A0909;
+}
+
+.btn-black {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-black:hover {
+  background-color: #fff;
+  color: #000;
+}
