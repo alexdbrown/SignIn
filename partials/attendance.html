@@ -1,0 +1,22 @@
+<div class='row'>
+  <div class='col-md-12'>
+    <h1>Who is Here?</h1>
+
+    <h2>Here</h2>
+    <ul>
+      <li ng-repeat="item in students">
+        <form ng-submit="signIn(item)">
+          {{item.name}}
+
+        </form>
+      </li>
+    </ul>
+
+    <h2>Not Here</h2>
+    <ul>
+      <li ng-repeat="item in students">
+          {{item.name}}
+      </li>
+    </ul>
+  </div>
+</div>
