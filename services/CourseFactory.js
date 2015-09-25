@@ -9,7 +9,5 @@ SignIn.factory('CourseFactory', function CourseFactory(){
   factory.students = [{ name: Larry David, signedIn: False }];
 
 
-
-
   return factory;
 });
