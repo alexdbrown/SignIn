@@ -11,7 +11,7 @@ A site where studetns are able to sign in to class for the day. App navigates to
 ## Setup
 
 1. Clone this repository
-2. Start python server in web directory.
+2. Start python server in project directory. (python -m SimpleHTTPServer)
 3. Direct browser to localhost:8000/
 4. Enjoy!
 
