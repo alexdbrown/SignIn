@@ -1,13 +1,14 @@
-DoOrDont.factory('AdviceFactory', function AdviceFactory(){
+SignIn.factory('CourseFactory', function CourseFactory(){
   var factory = {};
-  factory.questions = [];
-  factory.addQuestion = function () {
-    factory.questions.push({ text: factory.question,
-                             id: factory.questions.length + 1,
-                             answers: [],
-                             answered: false});
-    factory.question = null;
-  };
+  factory.students = [{ name: Jerry Seinfeld, signedIn: False }];
+  factory.students = [{ name: Elaine Benes, signedIn: False }];
+  factory.students = [{ name: Kramer, signedIn: False }];
+  factory.students = [{ name: George Costanza, signedIn: False }];
+  factory.students = [{ name: Newman, signedIn: False }];
+  factory.students = [{ name: Uncle Leo, signedIn: False }];
+  factory.students = [{ name: Larry David, signedIn: False }];
+
+
 
 
   return factory;
