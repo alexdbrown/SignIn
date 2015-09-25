@@ -6,12 +6,16 @@
       <li ng-repeat="item in students">
         <form ng-submit="CourseFactory.signIn(item)">
           {{item.name}}
-          <input ng-show="!item.signedIn" type="submit" value="Sign In">
-          <input ng-show="item.signedIn" type="submit" value="Sign Out">
+
+
+          <input class="input" ng-show="!item.signedIn" type="submit" value="Sign In">
+          <input class="input" ng-show="item.signedIn" type="submit" value="Sign Out">
         </form>
 
       </li>
     </ul>
     <h6><a ui-sref="attendance">Who Has Signed In?</a></h6>
+    <h6><a ui-sref="home">Go Back</a></h6>
+
   </div>
 </div>
